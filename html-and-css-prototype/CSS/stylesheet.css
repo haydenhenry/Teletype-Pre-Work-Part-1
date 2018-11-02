@@ -40,16 +40,9 @@ h1 {
 */
 
 /* Your CSS code goes here */
-.wrapper {
-	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	margin: 2em auto;
-	text-align: center;
-	max-width: 260px;
-	display: border-box;
-	border: 1px solid grey;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
+
+
+/* needed styles */
 
 .needed {
 	background-color: #424242;
@@ -76,18 +69,38 @@ h1 {
 	margin-bottom: -7px;
 }
 
-.bar {
-	border: 8px solid transparent;
-	background-color: red;
+/* wrapper styles  */
+
+.wrapper {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: .85em;
+	margin: 2em auto;
+	text-align: left;
+	max-width: 260px;
+	display: border-box;
+	border: 1px solid grey;
 	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.days-left {
+	margin: 10px 20px;
+}
+
+.bar {
+	border: 5px solid transparent;
+	background-color: red;
+	margin-top: 0px;
 	height: 10px;
 	width: 200px;
 }
 
 .donation input {
 	width: 100px;
-	height: 35px;
+	height: 45px;
 	padding: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
 	float: left;
 }
 
@@ -95,9 +108,13 @@ h1 {
 	color: white;
 	background-color: green;
 	width: 100px;
-	height: 35px;
+	height: 45px;
 	border: solid transparent;
 	border-radius: 5px;
+}
+
+.convince-me {
+	margin: 10px 10px;
 }
 
 .convince-me a {
@@ -105,22 +122,34 @@ h1 {
 	margin-right: 150px;
 }
 
+.red-words {
+	color: red;
+}
+
+/* aux button styles  */
+
 .aux-btns {
 	margin: auto;
 	text-align: center;
-	width: 120px;
+	width: 130px;
+}
+
+.save,
+.share {
+	border: solid transparent;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	height: 35px;
+	width: 115px;
+	background-color: #eaeaea;
 }
 
 .save {
 	float: left;
-	margin-left: -70px;
-	height: 35px;
-	width: 100px;
-
+	margin-left: -60px;
 }
 
 .share {
 	float: right;
-	
-
+	margin-right: -60px;
 }
