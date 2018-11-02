@@ -47,14 +47,19 @@ h1 {
 	max-width: 260px;
 	display: border-box;
 	border: 1px solid grey;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .needed {
 	background-color: #424242;
+	text-align: center;
+	max-width: 260px;
 	color: white;
 	padding: 10px 15px;
 	border-radius: 5px;
 	position: relative;
+	margin: auto;
 }
 
 .needed:after {
@@ -93,4 +98,29 @@ h1 {
 	height: 35px;
 	border: solid transparent;
 	border-radius: 5px;
+}
+
+.convince-me a {
+	text-decoration: none;
+	margin-right: 150px;
+}
+
+.aux-btns {
+	margin: auto;
+	text-align: center;
+	width: 120px;
+}
+
+.save {
+	float: left;
+	margin-left: -70px;
+	height: 35px;
+	width: 100px;
+
+}
+
+.share {
+	float: right;
+	
+
 }
