@@ -41,14 +41,56 @@ h1 {
 
 /* Your CSS code goes here */
 .wrapper {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	margin: 2em auto;
 	text-align: center;
-	max-width: 630px;
-	display: grid;
-	grid-template-columns: 300px;
-	grid-template-rows: ;
+	max-width: 260px;
+	display: border-box;
+	border: 1px solid grey;
 }
 
-.givebtn {
-	background-color: #1cbc2c;
+.needed {
+	background-color: #424242;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.needed:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 80%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #424242;
+	border-bottom: 0;
+	margin-left: -5px;
+	margin-bottom: -7px;
+}
+
+.bar {
+	border: 8px solid transparent;
+	background-color: red;
+	margin-top: 10px;
+	height: 10px;
+	width: 200px;
+}
+
+.donation input {
+	width: 100px;
+	height: 35px;
+	padding: 5px;
+	float: left;
+}
+
+.green-btn {
+	color: white;
+	background-color: green;
+	width: 100px;
+	height: 35px;
+	border: solid transparent;
+	border-radius: 5px;
 }
